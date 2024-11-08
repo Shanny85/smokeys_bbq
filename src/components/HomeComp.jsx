@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import hero1 from '../assets/heroburger.jpg';
-import hero2 from '../assets/heroplater.jpg';
-import hero3 from '../assets/herodessert.jpg';
+import hero1 from '../assets/heroburger.png';
+import hero2 from '../assets/heroplater.png';
+import hero3 from '../assets/herodessert.png';
 
 const HomeComp = () => {
     const [currentIndex, setCurrentIndex] = useState(0);

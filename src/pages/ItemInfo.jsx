@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import menuitem1 from '../assets/porkribs.jpg';
-import menuitem2 from '../assets/burger.jpg';
-import menuitem3 from '../assets/steaknchips.jpg';
-import menuitem4 from '../assets/chipndip.jpg';
-import menuitem5 from '../assets/cookie.jpg';
-import menuitem9 from "../assets/snackplate.jpg";
-import menuitem8 from "../assets/grilledprawns.jpg";
-import menuitem6 from "../assets/herodessert.jpg";
-import menuitem7 from "../assets/chocshake.jpg";
+import menuitem1 from '../assets/porkribs.png';
+import menuitem2 from '../assets/burger.png';
+import menuitem3 from '../assets/steaknchips.png';
+import menuitem4 from '../assets/chipndip.png';
+import menuitem5 from '../assets/cookie.png';
+import menuitem9 from "../assets/snackplate.png";
+import menuitem8 from "../assets/grilledprawns.png";
+import menuitem6 from "../assets/herodessert.png";
+import menuitem7 from "../assets/chocshake.png";
 
 // Assuming we are using localStorage or Context API for cart management
 const ItemInfo = () => {
