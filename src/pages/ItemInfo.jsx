@@ -14,7 +14,7 @@ import menuitem7 from "../assets/chocshake.png";
 const ItemInfo = () => {
     const { id } = useParams(); // Get the dynamic id from the URL params
     const [item, setItem] = useState(null);
-    const [size, setSize] = useState('Sweet');
+    const [size, setSize] = useState('Medium');
     const [spiceLevel, setSpiceLevel] = useState('Mild');
     const [quantity, setQuantity] = useState(1);
     const [addedToCartMessage, setAddedToCartMessage] = useState('');
@@ -90,9 +90,9 @@ const ItemInfo = () => {
                         value={size}
                         onChange={(e) => setSize(e.target.value)}
                     >
-                        <option value="Sweet">Medium</option>
-                        <option value="Spicy">Large</option>
-                        <option value="Smoky">Extra Large</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra Large">Extra Large</option>
                     </select>
                 </div>
 
